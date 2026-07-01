@@ -14,4 +14,4 @@ Topics include:
 * Write-ups
 * Personal Labs
 
-This section focuses on applying the knowledge gained from my Linux, Networking and PortSwigger studies through hands-on practice.
+This section focuses on applying the knowledge gained from my Linux, Networking and PortSwigger studies through hands-on practice (and some games for fun!).

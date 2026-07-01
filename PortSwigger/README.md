@@ -4,14 +4,9 @@ This folder documents my progress through PortSwigger Web Security Academy.
 
 Topics include:
 
-Burp Suite
-Authentication
-Access Control
-SQL Injection
-Cross-Site Scripting (XSS)
-CSRF
-SSRF
-File Upload vulnerabilities
-Business Logic vulnerabilities
+- Burp Suite
+- Authentication
+- Access Control
+- SQL Injection
 
 Each write-up contains my notes, observations and lessons learned.

@@ -1,4 +1,4 @@
-PortSwigger Academy
+# PortSwigger Notes
 
 This folder documents my progress through PortSwigger Web Security Academy.
 

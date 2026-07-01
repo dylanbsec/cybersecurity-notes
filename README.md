@@ -6,12 +6,10 @@ This repository documents my progress as I work towards a career in cybersecurit
 
 Inside you'll find:
 
-- Linux notes
-- Networking notes
+- Linux notes and command-line practice
+- Networking fundamentals
 - PortSwigger Academy write-ups
-- Pwn College progress
-- Python scripts
-- Personal projects
-- CTF write-ups (where permitted)
+- Practical hacking labs and challenges
+- Personal learning reflections
 
-My goal is to continually build practical skills through hands-on learning.
+My goal is to continually build practical skills through hands-on learning and document my progress along the way.

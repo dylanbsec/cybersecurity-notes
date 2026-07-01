@@ -1,6 +1,6 @@
 # Linux Notes
 
-This folder contains notes from Linux learning through:
+This folder contains notes from my learning of Linux:
 
 - Pwn College
 - Athena OS

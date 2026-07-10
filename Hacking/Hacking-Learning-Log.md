@@ -7,7 +7,7 @@ This file tracks my practical cybersecurity learning through labs, challenges an
 ## Entry 001 - Introduction to Offensive Security
 
 **Platform:** TryHackMe
-**Date:** 9 July 2026  
+**Date:** 9 July 2026
 **Room:** Offensive Security Intro  
 **Focus:** Web enumeration and hidden application functionality
 

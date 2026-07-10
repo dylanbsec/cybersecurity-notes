@@ -24,7 +24,6 @@ The objective was to identify hidden functionality within the website that was n
 
 I used the `dirb` command-line tool to perform directory and page enumeration:
 
-```bash
 dirb http://fakebank.thm
 
 DIRB used a wordlist containing common directory and page names and tested these against the target website.

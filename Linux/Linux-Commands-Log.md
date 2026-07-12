@@ -1,56 +1,48 @@
-# Linux Commands Log
-
-This file tracks Linux commands I have learned and practiced while using Athena OS and Pwn College.
-
 ## Entry 001 - Linux Command Review
 
-**Date:** 7 July 2026  
-**Focus:** Reviewing basic Linux commands and practicing in the CLI
+**Date:** 7 July 2026
 
-## Commands Practiced
-
-### Navigation
-
-```bash
-pwd - current working directory
-ls - list files/folders
-cd - change directory
-touch - create new file
-mkdir - make directory
-rm - remove
-cp - copy
-mv - move
-cat - read/display contents
----
-
-## Entry 002 - Process Management & Secure File Transfer
-
-**Focus:** Linux process management and file transfer
+**Focus:** Reviewing basic Linux commands and practising in the CLI.
 
 ### Commands Practised
 
-### Process Management
+- `pwd` - Display the current working directory
+- `ls` - List files and directories
+- `cd` - Change directory
+- `touch` - Create a new file
+- `mkdir` - Create a new directory
+- `rm` - Remove files and directories
+- `cp` - Copy files and directories
+- `mv` - Move or rename files and directories
+- `cat` - Display the contents of a file
 
-```bash
-ps
-```
+### Reflection
 
-Displays information about currently running processes.
+Today I reviewed Linux commands I had previously learned and practised them directly in the Athena OS terminal. This helped rebuild my confidence using the command line after taking some time away from cybersecurity.
 
-```bash
-kill
-```
+### Next Steps
 
-Terminates a running process using its Process ID (PID).
+- Continue Linux practice through Pwn College.
+- Learn file permissions and ownership.
+- Practise commands without relying on notes.
 
-### Secure File Transfer
+## Entry 002 - Process Management & Secure File Transfer
 
-```bash
-scp
-```
+**Date:** 13 July 2026
 
-Securely copies files between systems over SSH.
+**Focus:** Learning Linux process management and secure file transfer through Hacknet.
+
+### Commands Practised
+
+- `ps` - Display running processes
+- `kill` - Terminate a running process using its PID
+- `scp` - Securely copy files between systems over SSH
 
 ### Reflection
 
 I practised these commands while playing Hacknet. Although the environment is simulated, it provided an enjoyable way to become more comfortable using Linux commands in context rather than simply memorising them.
+
+### Next Steps
+
+- Continue learning Linux commands through practical use.
+- Develop a better understanding of SSH and remote administration.

@@ -21,3 +21,36 @@ rm - remove
 cp - copy
 mv - move
 cat - read/display contents
+---
+
+## Entry 002 - Process Management & Secure File Transfer
+
+**Focus:** Linux process management and file transfer
+
+### Commands Practised
+
+### Process Management
+
+```bash
+ps
+```
+
+Displays information about currently running processes.
+
+```bash
+kill
+```
+
+Terminates a running process using its Process ID (PID).
+
+### Secure File Transfer
+
+```bash
+scp
+```
+
+Securely copies files between systems over SSH.
+
+### Reflection
+
+I practised these commands while playing Hacknet. Although the environment is simulated, it provided an enjoyable way to become more comfortable using Linux commands in context rather than simply memorising them.

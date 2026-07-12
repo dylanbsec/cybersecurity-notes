@@ -39,3 +39,49 @@ The scan identified a hidden page:
 This page exposed functionality that allowed funds to be added directly to a bank account.
 
 I accessed the hidden page and used the exposed functionality to modify the balance of the provided account, successfully completing the exercise.
+
+---
+
+## Entry 002 - OSINT & Linux Practice
+
+**Focus:** Open Source Intelligence (OSINT) and Linux command-line practice
+
+### What I Learned
+
+Today I explored two different areas of practical cybersecurity.
+
+The first involved experimenting with **SpiderFoot**, an Open Source Intelligence (OSINT) tool that automates the collection of publicly available information about a target.
+
+I investigated how SpiderFoot can identify information such as:
+
+- Email addresses
+- Usernames
+- Associated online accounts
+- Publicly available breaches
+- Domain information
+- Digital footprint information
+
+This reinforced how much information can be gathered from public sources without directly interacting with a target system.
+
+I also spent time playing **Hacknet**, using it as a way to practise Linux terminal commands within a game-based environment.
+
+### Key Concepts
+
+- Open Source Intelligence (OSINT)
+- Digital footprint
+- Passive reconnaissance
+- Linux command line
+- File transfer
+- Process management
+
+### Reflection
+
+Although Hacknet is a game, it encouraged me to think more naturally about navigating a Linux terminal and using commands to accomplish objectives rather than simply memorising syntax.
+
+Using SpiderFoot also highlighted the importance of publicly available information and how attackers can build profiles of organisations or individuals before attempting further attacks.
+
+### Next Steps
+
+- Continue exploring SpiderFoot modules.
+- Learn additional Linux commands through practical use.
+- Develop a stronger understanding of reconnaissance techniques.

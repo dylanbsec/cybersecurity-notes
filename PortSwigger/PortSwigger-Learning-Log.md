@@ -42,3 +42,37 @@ For example:
 
 ```text
 /loadImage?filename=218.png
+```
+
+---
+
+## Entry 003 - Access Control Fundamentals
+
+**Date:** 13 July 2026
+
+**Focus:** Understanding access control and vertical privilege escalation.
+
+### Topics Covered
+
+- Access control
+- Authentication
+- Session management
+- Vertical privilege escalation
+- Unprotected functionality
+- robots.txt information disclosure
+
+### Reflection
+
+I learned that access control determines whether an authenticated user is authorised to perform a specific action or access a resource. Effective access control relies on authentication to verify a user's identity and session management to maintain that identity across requests.
+
+I also learned about **vertical privilege escalation**, where a user gains access to functionality intended for users with higher privileges, such as an administrator.
+
+To reinforce these concepts, I completed the **Unprotected Admin Functionality** lab. The lab demonstrated how sensitive administrative pages can sometimes be exposed due to missing access controls. By reviewing the application's `robots.txt` file, I discovered the hidden administrator panel and successfully accessed it to delete the user **carlos**, completing the exercise.
+
+This highlighted that hiding functionality is not the same as securing it. Sensitive pages must be protected by proper access control rather than relying on obscure URLs.
+
+### Next Steps
+
+- Continue the Access Control learning path.
+- Learn additional privilege escalation techniques.
+- Explore common access control vulnerabilities and how to identify them.

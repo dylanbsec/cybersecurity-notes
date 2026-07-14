@@ -28,7 +28,7 @@ Today I reviewed Linux commands I had previously learned and practised them dire
 
 ## Entry 002 - Process Management & Secure File Transfer
 
-**Date:** 13 July 2026
+**Date:** 12 July 2026
 
 **Focus:** Learning Linux process management and secure file transfer through Hacknet.
 
@@ -46,3 +46,30 @@ I practised these commands while playing Hacknet. Although the environment is si
 
 - Continue learning Linux commands through practical use.
 - Develop a better understanding of SSH and remote administration.
+
+## Entry 003 - Multiple and Mixed Globs
+
+**Date:** 14 July 2026
+
+**Focus:** Using wildcard patterns to match specific groups of files in Bash.
+
+### Commands Practised
+
+- `*p*` - Match every filename containing the letter `p`
+- `[cep]*` - Match filenames beginning with `c`, `e`, or `p`
+
+### Reflection
+
+I completed two pwn.college challenges covering multiple and mixed globs.
+
+The first challenge reinforced that `*` can match any sequence of characters. I used `*p*` to select every filename containing the letter `p`.
+
+The second challenge required combining a square bracket glob with `*` to match only `challenging`, `educational`, and `pwning`. I initially focused too much on letters shared within the filenames and overlooked the simpler pattern in their first letters.
+
+After receiving guidance, I understood that `[cep]*` works because `[cep]` matches one starting character from the set, while `*` matches the rest of each filename.
+
+### Next Steps
+
+- Continue practising square bracket globs.
+- Pay closer attention to simple filename patterns before testing more complicated expressions.
+- Continue the pwn.college globbing module.

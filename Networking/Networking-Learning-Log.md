@@ -65,3 +65,36 @@ I also gained a better understanding of why the Internet is often described as a
 - Continue through the Cisco Networking Academy modules.
 - Learn about network components and common networking hardware.
 - Build a stronger understanding of how devices communicate across different types of networks.
+
+---
+
+## Entry 002 - Data Transmission Fundamentals
+
+**Date:** 16 July 2026
+
+**Focus:** Understanding how data is represented and transmitted across computer networks.
+
+### Topics Covered
+
+- Types of data (volunteered, observable, inferred and secret)
+- Binary (bits)
+- Bytes
+- ASCII encoding
+- Electrical signals
+- Optical signals
+- Wireless signals
+- Network transmission media
+
+### Reflection
+
+I learned that computers only process and store information as binary digits (bits), with every piece of data ultimately being represented as a series of 0s and 1s. I also learned that eight bits make up a byte, and that standards such as ASCII allow computers to represent letters, numbers and special characters in binary.
+
+The lesson also introduced how binary data is transmitted across networks. Before data can travel, it is converted into signals which are sent over different types of media. I learned the three primary transmission methods: electrical signals over copper cables, optical signals over fibre-optic cables, and wireless signals using radio, microwave or infrared waves.
+
+Finally, I explored different categories of data, including volunteered, observable, inferred and secret data, and gained a better understanding of how information can be collected and interpreted in different ways.
+
+### Next Steps
+
+- Continue the Cisco Networking Academy course.
+- Learn how devices communicate using network protocols.
+- Build a stronger understanding of data transmission across different network media.

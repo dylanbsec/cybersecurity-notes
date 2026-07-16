@@ -76,3 +76,36 @@ This highlighted that hiding functionality is not the same as securing it. Sensi
 - Continue the Access Control learning path.
 - Learn additional privilege escalation techniques.
 - Explore common access control vulnerabilities and how to identify them.
+
+---
+
+## Entry 004 - Access Control: Unprotected Functionality & Parameter-Based Access Control
+
+**Date:** 15 July 2026
+
+**Focus:** Identifying hidden administrative functionality and exploiting insecure access control mechanisms.
+
+### Topics Covered
+
+- Security through obscurity
+- Unprotected admin functionality
+- Inspecting page source
+- JavaScript information disclosure
+- Parameter-based access control
+- Cookie-based privilege escalation
+
+### Reflection
+
+I continued studying access control vulnerabilities through the PortSwigger Web Security Academy and completed two practical labs.
+
+The first lab demonstrated that hiding sensitive functionality behind an unpredictable URL is not an effective security measure. By inspecting the page source, I found JavaScript containing the hidden administrator panel URL and used it to access the admin interface and delete the user **carlos**.
+
+The second lab explored parameter-based access control. After logging in as a normal user, I intercepted the server's response using Burp Suite and identified a cookie (`Admin=false`) used to determine administrative privileges. By modifying the cookie to `Admin=true`, I successfully gained access to the admin panel and completed the lab by deleting **carlos**.
+
+These exercises reinforced that client-side values such as JavaScript, cookies and request parameters should never be trusted for enforcing access control, as they can be viewed and modified by an attacker.
+
+### Next Steps
+
+- Continue the Access Control learning path.
+- Explore horizontal privilege escalation techniques.
+- Gain more experience identifying insecure client-side access control mechanisms.

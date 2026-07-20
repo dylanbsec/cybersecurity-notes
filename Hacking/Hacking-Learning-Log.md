@@ -85,3 +85,37 @@ Using SpiderFoot also highlighted the importance of publicly available informati
 - Continue exploring SpiderFoot modules.
 - Learn additional Linux commands through practical use.
 - Develop a stronger understanding of reconnaissance techniques.
+
+---
+
+## Entry 003 - Hack The Box: Meow
+
+**Date:** 20th July 2026
+
+**Focus:** Introduction to enumeration and gaining an initial foothold on a target machine.
+
+### Topics Covered
+
+- Network connectivity testing (`ping`)
+- Enumeration
+- Port scanning with `nmap`
+- Service detection
+- Telnet
+- Default and blank credentials
+- Initial foothold
+
+### Reflection
+
+Today I completed my first Hack The Box lab, **Meow**, which introduced the importance of enumeration during a penetration test.
+
+I began by confirming connectivity to the target machine using `ping` before scanning it with `nmap` to identify open ports and running services. The scan revealed that **Telnet** was running on port **23**, allowing me to investigate the service further.
+
+After researching Telnet and understanding its purpose as a remote management protocol, I attempted authentication using common default account names. I successfully gained access by exploiting a weak configuration that allowed a privileged account to authenticate without a password.
+
+The biggest lesson from this lab wasn't the exploitation itself, but the importance of carefully reading instructions and understanding the environment. I spent considerably longer troubleshooting than necessary because I confused my local Kali Linux filesystem with the target host's filesystem. Once I realised my mistake and followed the instructions more carefully, the remainder of the lab made much more sense.
+
+### Next Steps
+
+- Continue the Hack The Box Starting Point labs.
+- Develop stronger enumeration habits before attempting exploitation.
+- Improve my understanding of remote services and Linux file systems.

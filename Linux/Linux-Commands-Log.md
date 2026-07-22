@@ -73,3 +73,43 @@ After receiving guidance, I understood that `[cep]*` works because `[cep]` match
 - Continue practising square bracket globs.
 - Pay closer attention to simple filename patterns before testing more complicated expressions.
 - Continue the pwn.college globbing module.
+
+---
+
+## Entry 004 - Exclusionary Globbing & Tab Completion
+
+**Date:** 22 July 2026
+
+**Focus:** Learning advanced globbing techniques and using Bash tab completion to safely navigate files and commands.
+
+### Topics Covered
+
+- Exclusionary globbing
+- Character negation (`[! ]` and `[^ ]`)
+- Safe file selection
+- Tab completion
+- Multiple tab completion options
+- Command tab completion
+
+### Commands Practised
+
+- `[!pwn]*` / `[^pwn]*` - Match files that do **not** begin with the specified characters.
+- `TAB` - Auto-complete filenames.
+- Double `TAB` - Display available completion options when multiple matches exist.
+- `TAB` on commands - Auto-complete executable command names.
+
+### Reflection
+
+Today I completed four pwn.college lessons covering more advanced Bash features.
+
+I learned how exclusionary globbing can be used to match files that do not contain specific characters at a given position by using `!` or `^` inside square brackets. This provides a precise way to filter filenames without relying on broader wildcard patterns.
+
+I also learned the importance of tab completion. Rather than relying on wildcards that may unintentionally match multiple files, tab completion allows filenames and commands to be completed safely and accurately. I practised completing unique filenames, resolving situations where multiple matches existed, and auto-completing executable commands.
+
+These lessons reinforced that efficiency in the terminal should never come at the expense of accuracy. Features such as tab completion help reduce typing mistakes and lower the risk of executing commands against unintended files.
+
+### Next Steps
+
+- Progress on to the Practice Piping module on pwn.college.
+- Become more comfortable combining globbing techniques.
+- Build habits that prioritise safe and accurate command-line usage.
